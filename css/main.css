@@ -1,0 +1,47 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222;
+    color: white;
+}
+
+#grid{
+    border: 1px solid rgb(255, 0, 0);
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clicked{
+    background-color: rgb(0, 125, 125);
+}
+
+div#grid .square{
+    border: 1px solid white;
+    cursor: crosshair;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box100{
+    width: calc(100%/10);
+    height: calc(100%10);
+}
+
+.box81{
+    width: calc(100%/9);
+    height: calc(100%9);
+}
+
+.box49{
+    width: calc(100%/7);
+    height: calc(100%7);
+}
+
